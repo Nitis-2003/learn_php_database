@@ -9,9 +9,8 @@
  
  $result = mysqli_query($con,$insert);
  if($result){
-    echo "post success<br>";
+    header("location:index.php");
  }else{
-    echo "post error";
+    echo mysqli_error($con);
  }
  ?>
- <a href="index.php">back</a>

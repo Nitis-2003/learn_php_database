@@ -43,6 +43,7 @@
             </div>
             <input class="btn btn-success mt-3" type="submit" value="save">
             <input class="btn btn-danger mt-3" type="reset" value="reset">
+            <a href="./showdata.php" class="btn btn-primary mt-3">data</a>
         </form>
     </div>
 </body>
